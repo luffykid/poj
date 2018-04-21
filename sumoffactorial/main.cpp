@@ -18,4 +18,5 @@ int sumOfFact(int n, F func) {
 		sum = func(sum + fact);
 	}
 	return func(sum);
+
 }
